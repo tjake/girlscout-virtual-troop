@@ -11,10 +11,23 @@ import Styles,  { colors } from './Styles'
 import {createAppContainer} from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 import NavigationService from './NavigationService';
+import G from './globals'
 
 
 class GirlScoutVirtualTroop extends Component {
-  
+
+  constructor(props){
+    super(props);
+    
+    this.state = {
+       
+    }
+
+    G.STATE = this
+
+    console.disableYellowBox = true;
+  }
+
   render() {
     return (
       <SafeAreaView style={Styles.safeArea}>

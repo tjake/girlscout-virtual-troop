@@ -8,7 +8,10 @@ export const colors = {
   blue: '#0066CC',
   green: '#00AE58',
   brown: '#854400',
-  khaki: '#D5C99E'
+  khaki: '#D5C99E',
+  primary: '#000000',
+  secondary: '#00AE58',
+  lightGrey: '#000000'
 };
 
 export default StyleSheet.create({
@@ -17,16 +20,23 @@ export default StyleSheet.create({
       flex: 1,
       backgroundColor: colors.white
     },
+    wrapper: {
+        flex:1, 
+        justifyContent: 'center',
+        padding: 20,
+        backgroundColor: '#ffffff'
+    },
     outerContainer: {
         flex:1
-      },
-      topContainer: {
-        flex: 0.5
-      },
-      bottomContainer: {
-          flex:0.5
-      },
-    
+    },
+    topContainer: {
+        flex: 0.2,
+        alignItems: "center",
+        justifyContent: "center"
+    },
+    bottomContainer: {
+        flex:0.8
+    },
     hideTabStyle: {
       height: 0,
       overflow: 'hidden'

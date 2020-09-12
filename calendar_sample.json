@@ -1,0 +1,75 @@
+[
+   {
+      "title":"Saturday, Sept 12",
+      "data":[
+         {
+            "startTime":"9:00",
+            "endTime":"10:00",
+            "title":"Bus to Mystic Aquarium"
+         },
+         {
+            "startTime":"10:15",
+            "endTime":"11:30",
+            "title":"Seals & Me",
+            "speaker":{
+               "name":"Sam Ramji",
+               "company":"DataStax",
+               "avatarUrl":"https://www.girlscouts.org/content/dam/girlscouts-gsusa/images/Badges/Daisy/18_GE_EcoLearner_Badge_600x600.png.transform/cq5dam.thumbnail.120.120/img.png"
+            }
+         },
+         {
+            "startTime":"11:30",
+            "endTime":"12:00",
+            "title":"Lunch"
+         },
+         {
+            "startTime":"12:00",
+            "endTime":"1:00",
+            "title":"Sharks & Me",
+            "speaker":{
+               "name":"Sebastian Estevez",
+               "company":"DataStax",
+               "avatarUrl":"https://www.girlscouts.org/content/dam/girlscouts-gsusa/images/Badges/Junior/Junior_Animals_Habitats.png.transform/cq5dam.thumbnail.120.120/img.png"
+            }
+         },
+         {
+            "startTime":"1:00",
+            "endTime":"3:00",
+            "title":"Explore Aquarium"
+         }
+      ]
+   },
+   {
+      "title":"Sunday, Sept 13",
+      "data":[
+         {
+            "startTime":"9:00",
+            "endTime":"10:00",
+            "title":"Bus to Campgrounds"
+         },
+         {
+            "startTime":"10:15",
+            "endTime":"11:30",
+            "title":"Arrows are Fun!",
+            "speaker":{
+               "name":"Chelsea Navo",
+               "avatarUrl":"https://www.girlscouts.org/content/dam/girlscouts-gsusa/images/Badges/Cadettes/Cadette_OutdoorArchery.png.transform/cq5dam.thumbnail.120.120/img.png"
+            }
+         },
+         {
+            "startTime":"11:30",
+            "endTime":"12:00",
+            "title":"Lunch"
+         },
+         {
+            "startTime":"12:00",
+            "endTime":"12:00",
+            "title":"Make fire with friction",
+            "speaker":{
+               "name":"Jake Luciani",
+               "avatarUrl":"https://www.girlscouts.org/content/dam/girlscouts-gsusa/images/Badges/Senior/Senior_AdventureCamper.png.transform/cq5dam.thumbnail.120.120/img.png"
+            }
+         }
+      ]
+   }
+]

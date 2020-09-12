@@ -41,10 +41,10 @@ export default class MainTabs extends Component {
                 renderSelectedIcon={() => <Icon name="calendar" size={px2dp(22)} color={colors.green}/>}
                 onPress={() => {
                   this.setState({selectedTab: 'home'})
-                  if (this.saved != null)
-                    this.saved.onRefresh()
+                  if (this.cal != null)
+                    this.cal.onRefresh()
                 }}>
-                <Calendar ref={(c) => this.saved = c}/>
+                <Calendar ref={(c) => this.cal = c}/>
               </TabNavigator.Item>
 
               <TabNavigator.Item
@@ -56,10 +56,10 @@ export default class MainTabs extends Component {
                 renderSelectedIcon={() => <Icon name="users" size={px2dp(22)} color={colors.green}/>}
                 onPress={() => {
                   this.setState({selectedTab: 'roster'})
-                  if (this.saved != null)
-                    this.saved.onRefresh()
+                  if (this.ros != null)
+                    this.ros.onRefresh()
                 }}>
-                <Roster ref={(c) => this.saved = c}/>
+                <Roster ref={(c) => this.ros = c}/>
               </TabNavigator.Item>
 
               <TabNavigator.Item
@@ -71,10 +71,10 @@ export default class MainTabs extends Component {
                 renderSelectedIcon={() => <Icon name="thumbs-up" size={px2dp(22)} color={colors.green}/>}
                 onPress={() => {
                   this.setState({selectedTab: 'vote'})
-                  if (this.saved != null)
-                    this.saved.onRefresh()
+                  if (this.vote != null)
+                    this.vote.onRefresh()
                 }}>
-                <Vote ref={(c) => this.saved = c}/>
+                <Vote ref={(c) => this.vote = c}/>
               </TabNavigator.Item>
 
               <TabNavigator.Item
@@ -86,10 +86,10 @@ export default class MainTabs extends Component {
                 renderSelectedIcon={() => <Icon name="id-card" size={px2dp(22)} color={colors.green}/>}
                 onPress={() => {
                   this.setState({selectedTab: 'settings'})
-                  if (this.saved != null)
-                    this.saved.onRefresh()
+                  if (this.settings != null)
+                    this.settings.onRefresh()
                 }}>
-                <Settings ref={(c) => this.saved = c}/>
+                <Settings ref={(c) => this.settings = c}/>
               </TabNavigator.Item>
 
            </TabNavigator>
