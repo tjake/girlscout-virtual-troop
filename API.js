@@ -4,24 +4,6 @@ import UUID from 'react-native-uuid-generator'
 import G from './globals'
 import {decode as atob, encode as btoa} from 'base-64'
 
-function timeoutPromise(ms, promise) {
-    return new Promise((resolve, reject) => {
-      const timeoutId = setTimeout(() => {
-        reject("Request timed out 1")
-      }, ms);
-      promise.then(
-        (res) => {
-          clearTimeout(timeoutId);
-          resolve(res);
-        },
-        (err) => {
-          clearTimeout(timeoutId);
-          reject("Request timed out 2");
-        }
-      )
-    })
-}
-
 export default API = {
     writeProfileToAstra : (profile) => {
         data = {}
